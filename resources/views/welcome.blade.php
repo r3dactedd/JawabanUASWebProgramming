@@ -18,14 +18,17 @@
 <body>
 
 <header>
-    <nav class="navbar navbar-light fixed-top" style="padding:20px;">
-        <a class="navbar-brand">Amazing E-Grocery</a>
-        <form class="form-inline">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top" style="padding:20px;">
+        <a class="navbar-brand text-dark">Amazing E-Grocery</a>
+        <ul class="navbar-nav ms-auto">
+            <form class="form-inline">
                 <a href="/login">
                     <button type="button" class="btn btn-warning my-2 my-sm-0">
                         <i class="bi bi-box-arrow-in-right"></i> {{ __('lang.loginbtn') }}</button>
                     </a>
         </form>
+        </ul>
+
       </nav>
 </header>
 
