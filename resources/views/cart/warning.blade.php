@@ -11,5 +11,5 @@
 </div>
 
 <a href="/home" class="btn btn-danger" style="margin-left: 0px; background-color:rgb(227, 215, 1); border-color:transparent;  border-radius:20px; margin-left:580px; margin-right:auto">{{ __('lang.backtohome') }}</a>
-<div style="height:130px"></div>
+<div style="height:300px"></div>
 @endsection

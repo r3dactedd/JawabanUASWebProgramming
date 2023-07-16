@@ -6,8 +6,8 @@
         <h3></span></h3>
         <form action="/updaterole/{{$user->id}}" method="post">
             @csrf
-            <div class="form-floating mb-3" style="margin-left:550px">
-                <select class="form-select" id="role_id" name="role_id" style="width:200px" required focus>
+            <div class="form-floating mb-5" style="margin-left:550px">
+                <select class="form-select" id="role_id" name="role_id" style="width:200px;" required focus>
                     <option value="1"  selected>Admin</option>
                     <option value="2"  selected>Member</option>
                     <option value="Select Role" disabled selected>{{__('lang.selectrole')}}</option>
@@ -20,7 +20,7 @@
             </div>
 
             <button class="btn btn-lg btn-warning" type="submit" style="size:200px">
-               </button>
+                {{__('lang.savechanges')}}</button>
 
           </form>
           <div style="height:320px"></div>
